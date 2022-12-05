@@ -1,7 +1,7 @@
 import fileinput
 
 calories = []
-with fileinput.input(files=("input1-1.txt")) as file:
+with fileinput.input(files=("input.txt")) as file:
     for line in file:
         calories.append(line)
 
